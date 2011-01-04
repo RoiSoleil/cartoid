@@ -8,4 +8,10 @@
 		<item name="android:paddingTop">3dip</item>
 		<item name="android:paddingBottom">3dip</item>
 	</style>
+		<style name="ucalendar">
+		<item name="android:textSize">19sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/ucalendar</item>
+		<item name="android:gravity">center</item>
+	</style>
 </resources>

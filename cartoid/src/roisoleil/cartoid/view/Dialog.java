@@ -87,8 +87,8 @@ public class Dialog extends FrameLayout {
 		((LinearLayout) this.findViewById(R.id.hw_ct)).removeAllViews();
 		((LinearLayout) this.findViewById(R.id.hw_ct)).addView(view,
 				new LinearLayout.LayoutParams(
-						LinearLayout.LayoutParams.FILL_PARENT,
-						LinearLayout.LayoutParams.WRAP_CONTENT));
+						android.view.ViewGroup.LayoutParams.FILL_PARENT,
+						android.view.ViewGroup.LayoutParams.WRAP_CONTENT));
 	}
 
 	public void setTitle(String title) {
