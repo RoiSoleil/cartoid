@@ -2,11 +2,11 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 	<ViewFlipper android:layout_width="fill_parent"
 		android:layout_height="fill_parent" android:id="@+id/flipper">
-		<include android:id="@+id/sliders" layout="@layout/admin"
+		<include android:id="@+id/sliders" layout="@layout/boss"
 			android:layout_width="fill_parent" android:layout_height="fill_parent" />
-		<include android:id="@+id/sliders" layout="@layout/prod"
+		<include android:id="@+id/sliders" layout="@layout/r_and_d"
 			android:layout_width="fill_parent" android:layout_height="fill_parent" />
-		<include android:id="@+id/sliders" layout="@layout/stock"
+		<include android:id="@+id/sliders" layout="@layout/b_and_s"
 			android:layout_width="fill_parent" android:layout_height="fill_parent" />
 	</ViewFlipper>
 	<include android:id="@+id/sliders" layout="@layout/sliders"/>

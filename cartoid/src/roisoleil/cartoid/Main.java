@@ -1,13 +1,11 @@
 package roisoleil.cartoid;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
-import android.widget.Toast;
 import android.widget.ViewFlipper;
 
 public class Main extends Activity implements OnClickListener {
@@ -88,9 +86,5 @@ public class Main extends Activity implements OnClickListener {
 	// new ButtonAdapter(getBaseContext(), buttons));
 
 	public void toHumanRessources(View v) {
-		Intent intent = new Intent(this, HumanRessources.class);
-		this.startActivity(intent);
-		this.overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
-		Toast.makeText(this, "Jeu en pause.", 1000).show();
 	}
 }
